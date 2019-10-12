@@ -1,7 +1,7 @@
 def numericParadaize(number):
     if (number == 13):
         raise ValueError(1, "Чертова дюжина не может попасть в рай для чисел")
-    return number
+    return number**2
 
 
 try:
