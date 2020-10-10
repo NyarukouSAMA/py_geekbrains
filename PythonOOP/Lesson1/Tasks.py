@@ -17,7 +17,8 @@ with open('someText.txt', 'r', encoding='utf-8') as f:
 # Task2
 
 pattern = r'[\.\!\?]\s'
-l1 = re.split(pattern, text)
+li1 = re.split(pattern, text)
+print(li1)
 
 # Task3
 
