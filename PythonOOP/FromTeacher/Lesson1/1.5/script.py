@@ -14,8 +14,3 @@ text = re.sub("Франц", "Росс", text)
 text = re.sub("\d{1,2}\-[йя]", "n", text)
 
 print(text)
-
-
-
-
-

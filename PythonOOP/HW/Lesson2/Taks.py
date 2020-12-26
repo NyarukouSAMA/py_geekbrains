@@ -2,7 +2,7 @@ import re
 from bs4 import BeautifulSoup as BS
 
 # TAsk1
-with open('index.html', encoding='utf_8') as f:
+with open('resources\index.html', encoding='utf_8') as f:
     s = f.read()
 
 comments = re.compile("<!--.*?-->", re.DOTALL)
@@ -18,7 +18,7 @@ print(li[0])
 input()
 
 # Task2
-with open('index.html', encoding='utf_8') as f:
+with open('resources\index.html', encoding='utf_8') as f:
     s = f.read()
 
 soup = BS(s, "html.parser")

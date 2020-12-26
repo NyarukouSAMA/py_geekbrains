@@ -1,3 +1,3 @@
 {
-    "python.analysis.extraPaths": ["./PythonIntroduction/Lesson5"]
+    "python.analysis.extraPaths": ["./PythonIntroduction/Lesson5", "./PythonOOP/HW/Lesson1"]
 }

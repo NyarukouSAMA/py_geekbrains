@@ -42,5 +42,5 @@ if __name__ == "__main__":
     pickledObject = getPickle(myFavouriteGroup)
     print(type(pickledObject))
     print(pickledObject)
-    createJsonFile(myFavouriteGroup, './PythonIntroduction/resources/group')
-    createPickleFile(myFavouriteGroup, './PythonIntroduction/resources/group')
+    createJsonFile(myFavouriteGroup, './resources/group')
+    createPickleFile(myFavouriteGroup, './resources/group')
