@@ -1,9 +1,10 @@
+import os
 import json
 import pickle
 
 
 def getJson(item):
-    return json.dumps(item)
+    return json.dumps(item, ensure_ascii=False)
 
 
 def getPickle(item):
@@ -29,6 +30,7 @@ def createPickleFile(item, filename):
 
 
 if __name__ == "__main__":
+    print(os.getcwd())
     myFavouriteGroup = \
         {'name': 'Г.М.О.',
          'tracks': ['Последний месяц осени', 'Шапито'],
@@ -40,5 +42,5 @@ if __name__ == "__main__":
     pickledObject = getPickle(myFavouriteGroup)
     print(type(pickledObject))
     print(pickledObject)
-    createJsonFile(myFavouriteGroup, 'group')
-    createPickleFile(myFavouriteGroup, 'group')
+    createJsonFile(myFavouriteGroup, './PythonIntroduction/resources/group')
+    createPickleFile(myFavouriteGroup, './PythonIntroduction/resources/group')

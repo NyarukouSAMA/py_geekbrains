@@ -29,6 +29,7 @@ menuText = '''Меню:
 print(menuText)
 while not exitCondition:
     menuInput = input()
+    setFromNumericList = ()
     if menuInput == '1' or someNumericList is None:
         someNumericList = [x + int(random.uniform(3, 10)) for x in range(0,
                                                                          int(random.uniform(10, 50)), int(random.uniform(1, 2)))]
