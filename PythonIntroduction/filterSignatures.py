@@ -1,10 +1,3 @@
-import random
-
-#Это вернет случайное знаковое
-print(random.uniform(10,20))
-
-
-
 def someFunc(element):
     return True
 someIterable = []

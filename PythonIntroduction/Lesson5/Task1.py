@@ -1,1 +1,1 @@
-import Task1Pack.InnerDir.innerScript
+from Task1Pack.InnerDir import innerScript
