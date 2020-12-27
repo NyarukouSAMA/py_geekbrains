@@ -16,5 +16,5 @@ def getFromJson(filename):
 
 
 if __name__ == "__main__":
-    print(getFromPickle('./resources/group'))
-    print(getFromJson('./resources/group'))
+    print(getFromPickle('./group'))
+    print(getFromJson('./group'))

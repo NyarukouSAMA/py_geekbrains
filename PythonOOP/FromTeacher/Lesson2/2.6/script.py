@@ -1,26 +1,13 @@
 import re
 from bs4 import BeautifulSoup as BS
 
-with open("index.html") as f:
+with open("index.html", encoding='utf8') as f:
     s = f.read()
 
 soup = BS(s, "html.parser")
 print(soup.prettify())
 
 print(soup.get_text())
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 def old_foo():
     global s
